@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:client": "pnpm run dev --filter pd-client-react",
+    "dev:server": "pnpm run dev --filter pd-client-server"
   },
   "author": "",
   "license": "ISC",
