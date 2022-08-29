@@ -1,8 +1,8 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import Styles from "./index.module.scss";
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import Styles from './index.module.scss';
 
-const App = () => {
+function App() {
   const [count, setCount] = React.useState(0);
 
   const add = () => {
@@ -12,9 +12,11 @@ const App = () => {
   return (
     <div className={Styles.base}>
       {count}
-      <button onClick={add}>+1</button>
+      <button onClick={add} type="button">
+        +1
+      </button>
     </div>
   );
-};
+}
 
-createRoot(document.getElementById("app")!).render(<App />);
+createRoot(document.getElementById('app')!).render(<App />);
