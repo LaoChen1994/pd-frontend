@@ -24,5 +24,7 @@ module.exports = {
     quotes: "off",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
+    "import/no-import-module-exports": "off",
+    "import/no-extraneous-dependencies": "off",
   },
 };
