@@ -2,9 +2,11 @@
   "name": "pd-server-core",
   "version": "1.0.0",
   "description": "",
-  "main": "app.ts",
+  "main": "./dist/index.js",
+  "module": "./src/index.ts",
   "scripts": {
-    "build": "rimraf ./dist/* && tsc --build ./tsconfig.json"
+    "build": "tsc --build ./tsconfig.json",
+    "clear": "rimraf ./dist/*"
   },
   "keywords": [],
   "author": "",

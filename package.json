@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev:client": "pnpm run dev --filter pd-client-react",
-    "dev:server": "pnpm run dev --filter pd-client-server"
+    "dev:server": "pnpm run dev --filter pd-client-server",
+    "build": "turbo --build --concurrency=1"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "turbo": "^1.7.3"
   }
 }

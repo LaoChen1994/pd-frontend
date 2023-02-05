@@ -1,0 +1,4 @@
+
+> pd-server-core@1.0.0 build /Users/pidan/Work/Learn/front-end/pd-frontend/packages/server-core
+> tsc --build ./tsconfig.json
+

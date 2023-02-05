@@ -12,6 +12,7 @@ importers:
       rimraf: ^3.0.2
       ts-node: ^10.9.1
       tslib: ^2.4.0
+      turbo: ^1.7.3
       typescript: ^4.7.4
       webpack: '5'
       webpack-cli: '4'
@@ -19,6 +20,7 @@ importers:
     dependencies:
       lodash: 4.17.21
       rimraf: registry.npmmirror.com/rimraf/3.0.2
+      turbo: registry.npmmirror.com/turbo/1.7.3
     devDependencies:
       '@babel/core': 7.18.10
       '@babel/preset-env': 7.18.10_@babel+core@7.18.10
@@ -6977,7 +6979,7 @@ packages:
       webpack-cli: 4.x.x
     dependencies:
       webpack: registry.npmmirror.com/webpack/5.74.0_webpack-cli@4.10.0
-      webpack-cli: registry.npmmirror.com/webpack-cli/4.10.0_8f72ac236ae0ac26b7fe6f2d6bd3dcdf
+      webpack-cli: registry.npmmirror.com/webpack-cli/4.10.0_2345c183bc657266fcca11e98ad31935
     dev: true
 
   registry.npmmirror.com/@webpack-cli/info/1.5.0_webpack-cli@4.10.0:
@@ -6989,7 +6991,7 @@ packages:
       webpack-cli: 4.x.x
     dependencies:
       envinfo: registry.npmmirror.com/envinfo/7.8.1
-      webpack-cli: registry.npmmirror.com/webpack-cli/4.10.0_8f72ac236ae0ac26b7fe6f2d6bd3dcdf
+      webpack-cli: registry.npmmirror.com/webpack-cli/4.10.0_2345c183bc657266fcca11e98ad31935
     dev: true
 
   registry.npmmirror.com/@webpack-cli/serve/1.7.0_45df707992c445b706c417c12d2f060d:
@@ -12816,6 +12818,81 @@ packages:
       typescript: registry.npmmirror.com/typescript/4.7.4
     dev: true
 
+  registry.npmmirror.com/turbo-darwin-64/1.7.3:
+    resolution: {integrity: sha512-7j9+j1CVztmdevnClT3rG/GRhULf3ukwmv+l48l8uwsXNI53zLso+UYMql6RsjZDbD6sESwh0CHeKNwGmOylFA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/turbo-darwin-64/-/turbo-darwin-64-1.7.3.tgz}
+    name: turbo-darwin-64
+    version: 1.7.3
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  registry.npmmirror.com/turbo-darwin-arm64/1.7.3:
+    resolution: {integrity: sha512-puS9+pqpiy4MrIvWRBTg3qfO2+JPXR7reQcXQ7qUreuyAJnSw9H9/TIHjeK6FFxUfQbmruylPtH6dNpfcML9CA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/turbo-darwin-arm64/-/turbo-darwin-arm64-1.7.3.tgz}
+    name: turbo-darwin-arm64
+    version: 1.7.3
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  registry.npmmirror.com/turbo-linux-64/1.7.3:
+    resolution: {integrity: sha512-BnbpgcK8Wag6fhnff7tMaecswmFHN/T56VIDnjcwcJnK9H3jdwpjwZlmcDtkoslzjPj3VuqHyqLDMvSb3ejXSg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/turbo-linux-64/-/turbo-linux-64-1.7.3.tgz}
+    name: turbo-linux-64
+    version: 1.7.3
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  registry.npmmirror.com/turbo-linux-arm64/1.7.3:
+    resolution: {integrity: sha512-+epY+0dfjmAJNZHfj7rID2hENRaeM3D0Ijqkhh/M53o46fQMwPNqI5ff9erh+f9r8sWuTpVnRlZeu7TE1P/Okw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/turbo-linux-arm64/-/turbo-linux-arm64-1.7.3.tgz}
+    name: turbo-linux-arm64
+    version: 1.7.3
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  registry.npmmirror.com/turbo-windows-64/1.7.3:
+    resolution: {integrity: sha512-/2Z8WB4fASlq/diO6nhmHYuDCRPm3dkdUE6yhwQarXPOm936m4zj3xGQA2eSWMpvfst4xjVxxU7P7HOIOyWChA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/turbo-windows-64/-/turbo-windows-64-1.7.3.tgz}
+    name: turbo-windows-64
+    version: 1.7.3
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  registry.npmmirror.com/turbo-windows-arm64/1.7.3:
+    resolution: {integrity: sha512-UD9Uhop42xj1l1ba5LRdwqRq1Of+RgqQuv+QMd1xOAZ2FXn/91uhkfLv+H4Pkiw7XdUohOxpj/FcOvjCiiUxGw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/turbo-windows-arm64/-/turbo-windows-arm64-1.7.3.tgz}
+    name: turbo-windows-arm64
+    version: 1.7.3
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  registry.npmmirror.com/turbo/1.7.3:
+    resolution: {integrity: sha512-mrqo72vPQO6ykmARThaNP/KXPDuBDSqDXfkUxD8hX1ET3YSFbOWJixlHU32tPtiFIhScIKbEGShEVWBrLeM0wg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/turbo/-/turbo-1.7.3.tgz}
+    name: turbo
+    version: 1.7.3
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      turbo-darwin-64: registry.npmmirror.com/turbo-darwin-64/1.7.3
+      turbo-darwin-arm64: registry.npmmirror.com/turbo-darwin-arm64/1.7.3
+      turbo-linux-64: registry.npmmirror.com/turbo-linux-64/1.7.3
+      turbo-linux-arm64: registry.npmmirror.com/turbo-linux-arm64/1.7.3
+      turbo-windows-64: registry.npmmirror.com/turbo-windows-64/1.7.3
+      turbo-windows-arm64: registry.npmmirror.com/turbo-windows-arm64/1.7.3
+    dev: false
+
   registry.npmmirror.com/type-check/0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/type-check/-/type-check-0.4.0.tgz}
     name: type-check
@@ -13234,7 +13311,7 @@ packages:
       tapable: registry.npmmirror.com/tapable/2.2.1
       terser-webpack-plugin: registry.npmmirror.com/terser-webpack-plugin/5.3.5_webpack@5.74.0
       watchpack: registry.npmmirror.com/watchpack/2.4.0
-      webpack-cli: registry.npmmirror.com/webpack-cli/4.10.0_8f72ac236ae0ac26b7fe6f2d6bd3dcdf
+      webpack-cli: registry.npmmirror.com/webpack-cli/4.10.0_2345c183bc657266fcca11e98ad31935
       webpack-sources: registry.npmmirror.com/webpack-sources/3.2.3
     transitivePeerDependencies:
       - '@swc/core'
